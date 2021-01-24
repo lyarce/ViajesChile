@@ -2,6 +2,7 @@
     color: white !important;
     background-color: #249EAD;
 }
+
 .menu{
     text-align: right;
 }
@@ -17,4 +18,19 @@ footer{
 body {
 color: white;
 background-color: black;
+}
+
+.card-body {
+    background-color: #249EAD;
+}
+
+.card-img-top {
+    width: 100%;
+    min-height: 15vw;
+    object-fit: cover;
+}
+i {
+    margin: 10px;
+    text-align: right;
+    margin-top: inherit;
 }
