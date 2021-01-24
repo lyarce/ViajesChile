@@ -13,3 +13,8 @@ footer{
 .header img{
     width: 30px;
 }
+
+body {
+color: white;
+background-color: black;
+}
