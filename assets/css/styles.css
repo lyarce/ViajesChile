@@ -1,0 +1,15 @@
+.header {
+    color: white !important;
+    background-color: #249EAD;
+}
+.menu{
+    text-align: right;
+}
+
+footer{
+    background-color: #249EAD;
+}
+
+.header img{
+    width: 30px;
+}
