@@ -12,9 +12,10 @@
   <title>Viajes a Chile</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark header py-4">
+  <!-- Barra de Navegación & Smooth Scroll a diferentes partes de la página -->
+  <nav class="navbar navbar-expand-lg navbar-dark header py-2">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="">   Viajes Chile</a>
+      <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="">Viajes Chile</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,7 +38,7 @@
     </div>
   </div>
 </nav>
-<section>
+<section> <!-- Carousel de imagenes-->
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -60,31 +61,41 @@
     </a>
   </div>
 </section>
-<section class="container text-center py-4" id="whoarewe">
+<!-- Columnas con 3 párrafos con iconos, esta sección desaparece para dispositivos de pantalla pequeña -->
+<section class="container text-center py-5 my-5 d-none d-md-block" id="whoarewe">
   <h4 class="display-5 font-weight-bold my-4">¿Quienes somos?</h4>
+  <hr class="my-5"></hr>
   <div class="row">
     <div class="col-sm">
-      <i class="fas fa-plane fa-3x"></i>
+      <div class="column">
+        <i class="fas fa-plane fa-3x icon"></i>
+      </div>
       <p class="my-3 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur culpa expedita deserunt nostrum dolor, mollitia hic architecto fugiat aut corrupti possimus accusamus vero laboriosam voluptatum ratione. Et nulla dolor modi nostrum consequatur ut placeat commodi beatae delectus odit ipsam in, eligendi inventore, quibusdam quos esse atque fugit vitae ipsum illo? Autem fugiat quae quos molestias, non dolorem? Quod totam neque sunt consequatur? Dolor eos at neque tenetur. Tempore laboriosam voluptatem exercitationem temporibus unde atque mollitia minus enim omnis nihil officiis modi cum voluptatibus expedita eum nemo quod soluta eaque, aperiam delectus obcaecati! Labore error officia, cum ullam asperiores dolores saepe!</p>
     </div>
     <div class="col-sm">
-      <p class="my-3 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur itaque amet molestias sapiente qui dignissimos deserunt atque explicabo nemo fugiat? Commodi voluptate dolores necessitatibus voluptatum reprehenderit quos inventore ipsum ipsa rerum rem sed sit deserunt quasi fugit vero consectetur nostrum, numquam quibusdam. Dicta aperiam temporibus deleniti mollitia et dolor quae similique accusantium, in cumque magnam incidunt, doloremque laudantium aspernatur eius eos cupiditate nulla commodi explicabo nostrum laboriosam nobis libero. At dignissimos commodi neque aspernatur temporibus voluptate quibusdam magni suscipit libero labore iste aut id quam optio laborum debitis, dolores unde officiis repudiandae! Eaque aperiam possimus, et voluptatibus consectetur cumque deserunt.</p>
-      <i class="fas fa-mountain fa-3x"></i>
+      <p class="my-3 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur itaque amet molestias sapiente qui dignissimos deserunt atque explicabo nemo fugiat? Commodi voluptate dolores necessitatibus voluptatum reprehenderit quos inventore ipsum ipsa rerum rem sed sit deserunt quasi fugit vero consectetur nostrum, numquam quibusdam. Dicta aperiam temporibus deleniti mollitia et dolor quae similique accusantium, in cumque magnam incidunt, doloremque laudantium aspernatur eius eos cupiditate nulla commodi explicabo nostrum laboriosam nobis libero. At dignissimos commodi neque aspernatur temporibus voluptate quibusdam magni suscipit libero labore iste aut id quam optio laborum debitis, dolores unde officiis repudiandae!</p>
+      <div class="column">
+        <i class="fas fa-mountain fa-3x icon"></i>
+      </div>
     </div>
     <div class="col-sm">
-      <i class="fas fa-route fa-3x"></i>
+      <div class="column">
+        <i class="fas fa-route fa-3x icon"></i>
+      </div>
       <p class="my-3 text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore similique delectus quas, unde totam aliquam magni ipsam! Exercitationem vero culpa perferendis, molestiae nesciunt mollitia quam aliquam unde repellat consequatur sapiente alias quidem, sit cumque quia consectetur dolore nostrum dolorem, labore aliquid fugiat amet ipsam. Sequi recusandae aut ex, odit quo laboriosam laudantium repellat eos, maxime ratione nulla saepe, pariatur laborum quidem quos natus magnam temporibus fugit quam officia quod cumque! Iure nulla quos soluta neque harum beatae! Rem distinctio assumenda amet ipsam harum id optio, ex eaque quam tenetur possimus excepturi dolorem autem quia quod blanditiis in maxime perspiciatis repellat.</p>
     </div>
   </div>
 </section>
+<!-- CARDS : imagen, título y texto -->
 <section class="container text-center my-5 py-5" id="outstanding">
-  <h2>Destacados</h2>
+  <h4 class="dispalay-5 font-weight-bold my-4">Destacados</h4>
+  <hr class="my-5"></hr>
   <div class="card-deck text-dark">
     <div class="card">
       <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title text-left text-light">Lorem ipsum dolor sit amet autem</h5>
-        <p class="card-text text-left text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores autem, dolore alias unde eveniet nisi! Deleniti architecto voluptate.</p>
+        <p class="card-text text-left text-light">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores autem, dolore alias unde eveniet nisi! Deleniti architecto voluptate.</p>
       </div>
     </div>
     <div class="card">
@@ -98,7 +109,7 @@
       <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title text-left text-light">Lorem ipsum dolor sit amet autem</h5>
-        <p class="card-text text-left text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores autem, dolore alias unde eveniet nisi! Deleniti architecto voluptate.</p>
+        <p class="card-text text-left text-light">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores autem, dolore alias unde eveniet nisi! Deleniti architecto voluptate.</p>
       </div>
     </div>
     <div class="card">
@@ -111,35 +122,30 @@
   </div>
 </div>
 </section>
-<section class="container my-5 py-5" id="contact">
-  <h2 class="display-2 fond-weight-bold text-center my-4">Contacto</h2>
-  <form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Nombre</label>
-      <input type="text" class="form-control" id="nombre_" placeholder="Nombre">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleEmail1" placeholder="Correo electrónico">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Mensaje</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Escribe aquí tu mensaje"></textarea>
-    </div>
-    <div class="text-right">
-      <button type="submit" class="btn btn-info">Enviar</button>
-    </div>
-  </form>
+<section class="container my-4 py-4" id="contact">
+  <h4 class="display-5 font-weight-bold text-center text-light my-4">Contacto</h4>
+  <hr class="my-5"></hr>
+  <!-- TypeForm -->
+  <div class="typeform-widget" data-url="https://form.typeform.com/to/HzJS9clS?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 </section>
+<!-- Iconos con sus respectivos links a redes sociales-->
 <footer class="py-1">
   <div class="container">
-    <div class="cc d-flex py-4">
+    <div class="cc d-flex py-2">
       <h3 class="mx-3 text-light">VIAJES CHILE</h3>
       <div class="mx-3 ml-auto">
-        <i class="fab fa-github fa-2x"></i>
-        <i class="fab fa-linkedin-in fa-2x"></i>
-        <i class="fab fa-twitter-square fa-2x"></i>
-        <i class="fab fa-facebook-square fa-2x"></i>
+        <a href="https://github.com/">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/">
+          <i class="fab fa-linkedin-in fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/">
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>
+        <a href="https://www.facebook.com/">
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </a>
       </div>
     </div>
   </div>
@@ -159,3 +165,24 @@
 -->
 </body>
 </html>
+
+
+
+<!-- *** FORMULARIO OPCIONAL *** 
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Nombre</label>
+      <input type="text" class="form-control" id="nombre_" placeholder="Nombre">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleEmail1" placeholder="Correo electrónico">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Mensaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Escribe aquí tu mensaje"></textarea>
+    </div>
+    <div class="text-right">
+      <button type="submit" class="btn btn-info">Enviar</button>
+    </div>
+  </form> -->

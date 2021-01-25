@@ -1,3 +1,4 @@
+/* BACKGROUND COLOR utlizado es: #249EAD */
 .header {
     color: white !important;
     background-color: #249EAD;
@@ -16,8 +17,8 @@ footer{
 }
 
 body {
-color: white;
-background-color: black;
+    color: white;
+    background-color: black;
 }
 
 .card-body {
@@ -29,8 +30,33 @@ background-color: black;
     min-height: 15vw;
     object-fit: cover;
 }
+/* formato de los iconos de la seccion "Quines somos" */
 i {
     margin: 10px;
     text-align: right;
     margin-top: inherit;
+    background-color:#249EAD;
+}
+
+h4 {
+    text-decoration: ;
+}
+
+.icon {
+    vertical-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.column {
+    background-color:#249EAD;
+}
+
+/* linea horizontal bajo el titulo de la sección*/
+hr {
+    border: 2px solid #249EAD;
+} 
+/* color de los iconos del footer*/
+footer a {
+    color: white;
 }

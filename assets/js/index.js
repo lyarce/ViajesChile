@@ -11,3 +11,5 @@ $(document).ready(function(){
       }
     })
   })
+
+  // Smooth scroll a diferentes secciones de la página, con 2000 milisegundos de velociad  
