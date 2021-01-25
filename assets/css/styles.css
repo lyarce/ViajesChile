@@ -1,4 +1,3 @@
-/* BACKGROUND COLOR utlizado es: #249EAD */
 .header {
     color: white !important;
     background-color: #249EAD;
@@ -36,10 +35,6 @@ i {
     text-align: right;
     margin-top: inherit;
     background-color:#249EAD;
-}
-
-h4 {
-    text-decoration: ;
 }
 
 .icon {
